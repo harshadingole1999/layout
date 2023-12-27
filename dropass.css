@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(55, 68, 55);
+}
+nav{
+    background-color: rgb(99, 53, 53);
+}
+#cont{
+    display: flex;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+  
+}
+#cont:hover{
+    background-color: rgb(2, 41, 41);
+    color: yellow;
+}
+a{ display: block;
+    text-decoration: none;
+    color: brown;
+    background-color: aqua;
+  
+    padding: 20px;
+    font-size: 20px;
+   
+
+}
+a:hover{
+    background-color: rgb(43, 10, 73);
+    
+}
+#nonveg{
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+#n:hover #nonveg{
+    display: block;
+}
+#veg{ 
+    position: absolute;
+    display: none;
+    background-color: darkcyan;
+    padding: 0;
+    font-size: 20px;
+    border: 1px solid black;
+
+
+
+}
+#v:hover #veg{ 
+    display: block;
+
+}
+#drinks{
+    position: absolute;
+    display: none;
+    background-color: darkorange;
+    padding: 0;
+    font-size: 20px;
+    border: 1px solid black;
+}
+#d:hover #drinks{
+    display: block;
+}
+ul{
+    list-style-type: none;
+}

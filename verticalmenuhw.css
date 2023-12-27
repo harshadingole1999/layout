@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+}
+#cont{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 15%;
+    height: 100vh;
+    background-color: darkgrey;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: white;
+}
+#menu{
+    position: relative;
+}
+#vm{
+    position: absolute;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(196, 152, 236);
+   
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#menu:hover #vm{
+    display: block;
+}
+#b{
+    position: relative;
+}
+
+#bm{
+    position: absolute;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: orange  ; 
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#b:hover #bm{
+    display: block;
+}
+#l{
+    position: relative;
+}
+#lm{
+    position: absolute;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(181, 132, 226);
+   
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#l:hover #lm{
+    display: block ;
+}
+#d{
+    position: relative;
+}
+#dm{
+    position: absolute;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(93,28,155);
+   
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#d:hover #dm{
+    display: block;
+}
+#n

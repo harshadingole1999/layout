@@ -1,0 +1,87 @@
+body{
+margin: 0;
+padding: 0;
+background-color:white;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main > form{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin-top: 30px;
+
+
+}
+#welcome{
+    display: flex;
+    justify-content: center;
+    color: orange;
+
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+}
+
+main > form > #img-div{
+    height: 80px;
+}
+#Sign{
+    display: flex;
+    justify-content: center;
+    color: #162d4c;
+    font-size: 40px;
+}
+#guide{
+    display: flex;
+    justify-content: center;
+    color: black;
+    width: 80%;
+}
+
+.email{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: left;
+    color: #616d8a;
+    padding-left:20px;
+
+}
+#email-p{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+main > form > .email-p > input{
+    width: 75%;
+    /* font-size: 15px; */
+    padding-left: 20px;
+    margin-left: 14px;
+}
+
+
+
+button{
+    width: 75%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #1f3253;
+    border-bottom: 8px solid #1f3253;
+     color: #1f3253;
+     font-size: 15px;
+     background-color: yellow;
+     margin-top: 30px;
+     margin-left: 30px;
+     margin-bottom: 20px;
+}
+#check{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+a{
+    position: inherit;
+    margin-left: 50px;
+}
